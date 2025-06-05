@@ -1,0 +1,127 @@
+{
+  "ontology_name": "AresNet Layered Ontology",
+  "version": "1.0",
+  "layers": [
+    {
+      "layer_id": 1,
+      "layer_name": "Physical Electromagnetic Environment",
+      "domain": "Electromagnetic Theory and Stochastic Phenomena",
+      "elements": [
+        "Multipath Propagation",
+        "Refraction",
+        "Ducting and Tropospheric Propagation",
+        "Weather Effects",
+        "Ionospheric Variability",
+        "Terrain Effects",
+        "EM Interference (Manmade & Natural)",
+        "Spectrum Congestion",
+        "Waveform Interactions",
+        "Thermal Noise",
+        "Quantum Noise",
+        "Stochastic Modeling"
+      ]
+    },
+    {
+      "layer_id": 2,
+      "layer_name": "Systemic Electromagnetic Operations",
+      "domain": "Electronic Warfare Systems",
+      "elements": [
+        "Electronic Countermeasures (ECM)",
+        "Electronic Protection (EP)",
+        "Spoofing and Jamming",
+        "Frequency Agility",
+        "Beamforming",
+        "Hardware Variability"
+      ]
+    },
+    {
+      "layer_id": 3,
+      "layer_name": "Tactical-Operational Response",
+      "domain": "Field Maneuver and Engagement Under EM Degradation",
+      "elements": [
+        "EM-Constrained Maneuver and Fires",
+        "Mission-Type Orders in EM-Denied Environments",
+        "Signature Management and Deception",
+        "Spectrum Maneuver Warfare"
+      ]
+    },
+    {
+      "layer_id": 4,
+      "layer_name": "Cognitive Layer",
+      "domain": "Human Perception and Sensemaking",
+      "elements": [
+        "Situational Awareness Under Uncertainty",
+        "Cognitive Load and Decision Fatigue",
+        "Heuristics and Biases",
+        "Sensemaking in Complex Environments"
+      ]
+    },
+    {
+      "layer_id": 5,
+      "layer_name": "Decision Science",
+      "domain": "Risk, Tradeoffs, and Adversarial Reasoning",
+      "elements": [
+        "Bounded Rationality",
+        "Risk Tradeoffs and Utility Functions",
+        "Game-Theoretic Planning",
+        "Multi-Objective Optimization"
+      ]
+    },
+    {
+      "layer_id": 6,
+      "layer_name": "Command and Control",
+      "domain": "C2 Architecture and Mission Command",
+      "elements": [
+        "Decentralized Execution / Centralized Intent",
+        "Cross-Domain Synchronization",
+        "C2 Node Resilience",
+        "Adaptive C2 Structures in DDIL Environments"
+      ]
+    },
+    {
+      "layer_id": 7,
+      "layer_name": "Organizational Doctrine and Training",
+      "domain": "Institutional Learning and Interoperability",
+      "elements": [
+        "Doctrine for EM-Denied Operations",
+        "Red Teaming and Scenario-Based Training",
+        "Cognitive Readiness Drills",
+        "Interoperability Across Echelons and Domains"
+      ]
+    }
+  ],
+  "integration_points": [
+    "NGC2 Data Fabric",
+    "Project Linchpin",
+    "Joint Network Emulator (JNE)",
+    "EXata Network Simulation",
+    "DIS / HLA / STANAG Standards",
+    "Army Cyber and EW Doctrine (FM 3-13, JP 3-13.1)"
+  ],
+  "core_subsystems": {
+    "Generative AI Core": {
+      "description": "Generates doctrinally aligned tactical data (C2, ISR, Logistics)",
+      "methods": [
+        "LLM",
+        "GAN",
+        "Reinforcement Learning"
+      ]
+    },
+    "Adversarial Effects Engine": {
+      "description": "Applies dynamic adversarial stressors (jamming, spoofing, latency, misinformation)",
+      "methods": [
+        "Reinforcement Learning",
+        "Probabilistic Modeling"
+      ]
+    },
+    "DDIL Network Emulation Layer": {
+      "description": "Simulates real-time degraded network conditions using tools like JNE/EXata"
+    }
+  },
+  "metadata": {
+    "author": "OFFSET3",
+    "project": "AresNet",
+    "contact": "john.black@offset3.com",
+    "date_created": "2025-06-03"
+  }
+}
