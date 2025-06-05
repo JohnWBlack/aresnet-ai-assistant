@@ -1,0 +1,9 @@
+Topic 2: Generative AI Enabled Tactical Network.
+
+Topic Objective: The objective of this topic is to create a realistic modeling and simulation environment using Generative AI (GenAI) for the Next Generation Command and Control (NGC2) system. NGC2 is the Army’s new approach to a data-centric C2 architecture to enable real time access to critical data despite limited connectivity environments and little to no tactical communications.
+
+Topic Description: GenAI would be used to create realistic tactical data streams to create a diverse set of scenarios representing current threat, blue force, and logistics Command and Control and maneuver operations. The environment should reflect a realistic tactical network (DDIL environment) with multiple data access and delivery demands in real time.
+
+The generated data would be at scale and based on realistic models (e.g. tracks should be following likely routes/roads based on local terrain at a realistic pace and elevation vs randomly placed on a map at a random time and space). Another objective is the use AI (or some other technique) to simulate limited bandwidth as data is ‘exchanged’ from producer to consumer to model a Denied, Disrupted, Intermittent, and Limited (DDIL) environment that logically aligns to the scenario fed by the GenAI data. DDIL environments can restrict real time communication, limit data transfer, and make it difficult to coordinate across military units and systems.
+
+The Army's Next Gen Command and Control program is a large part of the effort to modernize the Army’s network. It will provide commanders with the adaptive C2 architecture needed to make rapid decisions in a contested environment. NGC2 is the Army’s joint effort with industry to build a “data-centric” command and control system enabled through network transport. The goal is to recreate the service’s enterprise data architecture and renew its operational software framework.
